@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.heroSection {
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: 1000px 599px;
+    position: relative;
+    margin-top: -71px;
+    overflow-y: hidden;
+    display: none;
+}
+
+.heroSectionSm {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -6px;
+    display: block;
+}
+
+@media (min-width: 992px) {
+    .heroSection {
+        display: block;
+    }
+    .heroSectionSm {
+        display: none;
+    }
+}
+
+.heroWrap {
+    padding: 10px;
+    margin: 20px;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+.heroWrapSm {
+    margin-top: 10px;
+}
+
+.maintain {color: #35D692 !important}
+
+.heroHead {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.heroHeadSm {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.heroP {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.heroPSm {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    margin-top: 30px;
+    font-weight: normal;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.subscribeBtn {
+    color: #ffffff;
+    font-family: 'Roboto',
+    sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)),
+    #354FD6;
+    border-radius: 5px;
+    margin-bottom: 250px;
+}
+
+.subscribeBtn:hover {
+    background-color: #35D692;
+    transition: 0.5s;
+    color: #000000;
+}
+
+a.subscribeBtn:focus {
+    background-color: #35D692;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.wrapS {
+    position: absolute;
+}
+
+.man {
+    right: 0;
+    height: 600px;
+    margin-left: -155px;
+    width: 900px;
+    position: relative;
+    z-index: -1;
+    max-width: 123.3%;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 1024px)  {
+  .man{
+    margin-left: -27px;
+    max-width: 105.4%;
+  }
+  .heroSection{
+    background-size: 800px 600px;
+  }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1440px)  {
+  .man{
+    margin-left: -92px;
+    max-width: 112.9%;
+  }
+}
